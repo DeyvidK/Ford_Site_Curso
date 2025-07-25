@@ -12,6 +12,9 @@ body{
 .cabeca{
     display: flex;
     flex-direction: row;
+    padding-block-end: 13px ;
+    border: solid, 0.1px;
+    border-color: gray;
   
 
 .topo{
@@ -34,7 +37,27 @@ body{
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    margin-top: 1%;
+    margin-top: 13.5px;
+    margin-block-end: 1%;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.principal1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 15px;
+    margin-block-end: 1%;
+}
+
+.principal2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin-top: 13.5px;
     margin-block-end: 1%;
     gap: 15px;
     font-size: 20px;
@@ -69,5 +92,54 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap: 50px;
     
+}
+
+input[type="checkbox"] {
+    transform: scale(2);
+  }
+
+table{
+    border-collapse: separate;
+    border-spacing: 15px;
+    text-align:justify;
+    
+}
+.carro{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:flex-start;
+    
+}
+
+button{
+    border-radius: 10px;
+    border: 0;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(26, 26, 255);
+}
+.but1{
+    border-radius: 10px;
+    border: 0;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(26, 26, 255);
+    margin-left: 65px;
+}
+
+.cel{
+    border: solid, 1px;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+}
+.sobrevc{
+    margin-left: 15px;
 }
