@@ -36,6 +36,7 @@ nav{
    
 
 .main_index{
+min-height: calc(100% - 167px);
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
@@ -166,7 +167,55 @@ button:hover{
     font-size: 1.75rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+dialog{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#modal {
+    width: 100%;
+    max-width: 850px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    background-color: white;
+    border: none;
+}
 
+#modal table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#modal th, #modal td {
+    padding: 10px;
+}
+
+#modal tr:nth-child(even) td {
+    background-color: #f5f5f5;
+}
+
+#modal img {
+    width: 150px;
+}
+
+#fechar {
+    margin-left: 38%;
+    background-color: #2b35df;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#fechar:hover {
+    background-color: #0056b3;
+}
 /*Seção de Responsividade*/
 
 @media (max-width:900px){
