@@ -137,6 +137,13 @@ button:hover{
     background-color: #444cdf;
     transform: scale(1.03);
 }
+
+.but1:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;    
+    opacity: 0.7;           
+  }
+
 .but1{
     border-radius: 10px;
     border: 0;
@@ -154,10 +161,30 @@ button:hover{
     
 }
 
+.checktermo{
+    width: 7px;
+    margin-right: 3%
+}
+
+.termotxt{
+    font-size: 0.7rem;
+    color: gray;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.termo{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 310px;
+    gap: 10px;
+}
+
 .cel{
     border: solid, 1px;
     border-radius: 10px;
-    width: 280px;
+    width: 295px;
     height: 40px;
     font-family: Arial, sans-serif;
     font-size: 0.9rem;
